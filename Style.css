@@ -1,9 +1,10 @@
+
 body {
     font-size: 20px; 
     color: purple;
+    background-color: rgb(252, 252, 98);
  
  }
-.nav-list{
-    color:green;
-
-}
+ .nav-link{
+    color:blue;
+ }
