@@ -17,6 +17,10 @@ body {
 #title{
     padding-left: 100px;
 }
+#ingTitle{
+    font-size: 300%;
+    padding-left: 100px;
+}
  .top-nav{
      background-color: purple;
      margin-bottom: 50px;
