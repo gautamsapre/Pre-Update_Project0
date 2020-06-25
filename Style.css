@@ -2,9 +2,24 @@
 body {
     font-size: 20px; 
     color: purple;
-    background-color: rgb(252, 252, 98);
+    background-color:rgb(245, 245, 189);
  
  }
+
  .nav-link{
-    color:blue;
+   
+    color:white;
+ }
+#selected{
+    background-color: white;
+    color:purple;
+}
+#title{
+    padding-left: 100px;
+}
+ .top-nav{
+     background-color: purple;
+     margin-bottom: 50px;
+ 
+     
  }
