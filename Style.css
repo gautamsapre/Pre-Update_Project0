@@ -29,14 +29,40 @@ body {
  .top-nav{
      background-color: purple;
      margin-bottom: 50px;
- 
+ }
+ .nav-item:hover{
+    background-color: rgb(194, 162, 92);
+ }
      
- }
- .list-group-item{
+ 
+ #list-correction{
      text-align: center;
+     padding-bottom: auto;
  }
- .list-group{
+ .ingredient-list{
      padding-left: 40em;
      padding-right: 40em;
      padding-bottom: 20rem;
  }
+#Procedure{
+    padding-left: 20em;
+    padding-right: 40em;
+    
+}
+.procedure-list{
+    text-align: left;
+    font-size: 20pt;
+    padding-right: 20rem; 
+}
+table {
+    counter-reset: rowNumber;
+  }
+  
+  table tr::before {
+    display: table-cell;
+    counter-increment: rowNumber;
+    content: counter(rowNumber) ".";
+    padding-right: 0.3em;
+    text-align: right;
+    padding-left: 4rem;
+  }
