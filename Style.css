@@ -53,11 +53,20 @@ body {
     text-align: left;
     font-size: 20pt;
     padding-right: 20rem; 
+    border-top: solid;
+    border-width: 10px;
+}
+.procedure-img{
+    padding-right:20rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    border-top: solid;
+    border-width: 10px;
 }
 table {
     counter-reset: rowNumber;
-  }
   
+  }
   table tr::before {
     display: table-cell;
     counter-increment: rowNumber;
@@ -65,4 +74,8 @@ table {
     padding-right: 0.3em;
     text-align: right;
     padding-left: 4rem;
+    padding-top: 7rem;
+    border-top: solid;
+    border-width: 10px;
+    font-size: 20pt;
   }
