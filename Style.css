@@ -1,80 +1,89 @@
-
 body {
-    font-size: 20px; 
-    color: purple;
-    background-color:rgb(245, 245, 189);
- 
- }
+  font: 100% Helvetica, sans-serif;
+  color: color;
+  background-color: #f5f5bd; }
 
- .nav-link{
-   
-    color:white;
- }
-#selected{
-    background-color: white;
-    color:purple;
-}
-#title{
-    text-align: center;
-}
-#ingTitle{
+.nav-link {
+  color: white; }
 
-    text-align: center;
-    font-size: 300%;
+#selected {
+  background-color: white;
+  color: purple; }
 
-}
-.jumbotron{
-    padding:40px;
-}
- .top-nav{
-     background-color: purple;
-     margin-bottom: 50px;
- }
- .nav-item:hover{
-    background-color: rgb(194, 162, 92);
- }
-     
- 
- #list-correction{
-     text-align: center;
-     padding-bottom: auto;
- }
- .ingredient-list{
-     padding-left: 40em;
-     padding-right: 40em;
-     padding-bottom: 20rem;
- }
-#Procedure{
-    padding-left: 20em;
-    padding-right: 40em;
-    
-}
-.procedure-list{
-    text-align: left;
-    font-size: 20pt;
-    padding-right: 20rem; 
-    border-top: solid;
-    border-width: 10px;
-}
-.procedure-img{
-    padding-right:20rem;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-    border-top: solid;
-    border-width: 10px;
-}
+#title {
+  text-align: center; }
+
+#ingTitle {
+  text-align: center;
+  font-size: 300%; }
+
+.jumbotron {
+  padding: 40px; }
+
+.top-nav {
+  background-color: purple;
+  margin-bottom: 50px; }
+
+.nav-item:hover {
+  background-color: #c2a25c; }
+
+#list-correction {
+  text-align: center;
+  padding-bottom: auto; }
+
+.ingredient-list {
+  padding-left: 40em;
+  padding-right: 40em;
+  padding-bottom: 20rem; }
+
+#Procedure {
+  padding-left: 20em;
+  padding-right: 40em; }
+
+.procedure-list {
+  text-align: left;
+  font-size: 20pt;
+  padding-right: 20rem;
+  border-top: solid;
+  border-width: 10px; }
+
+.procedure-img {
+  padding-right: 20rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  border-top: solid;
+  border-width: 10px; }
+
 table {
-    counter-reset: rowNumber;
-  
-  }
-  table tr::before {
-    display: table-cell;
-    counter-increment: rowNumber;
-    content: counter(rowNumber) ".";
-    padding-right: 0.3em;
-    text-align: right;
-    padding-left: 4rem;
-    border-top: solid;
-    border-width: 10px;
-    font-size: 20pt;
-  }
+  counter-reset: rowNumber; }
+
+table tr::before {
+  display: table-cell;
+  counter-increment: rowNumber;
+  content: counter(rowNumber) ".";
+  padding-right: 0.3em;
+  text-align: right;
+  padding-left: 4rem;
+  border-top: solid;
+  border-width: 10px;
+  font-size: 20pt; }
+
+.form {
+  background-color: #ccc9c9;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+  margin-left: 30rem;
+  padding-left: 5rem;
+  margin-right: 30rem;
+  padding-right: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #7d00a3;
+  border-top: 7px solid #0000008c;
+  border-bottom: 7px solid #0000008c;
+  border-left: 7px solid #0000008c;
+  border-right: 7px solid #0000008c;
+  border-radius: .8rem; }
+
+/*# sourceMappingURL=Style.css.map */
