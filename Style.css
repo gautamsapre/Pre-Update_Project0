@@ -6,7 +6,7 @@ body {
 .nav-link {
   color: white; }
 
-#selected {
+.nav-link:active {
   background-color: white;
   color: purple; }
 
@@ -31,14 +31,12 @@ body {
   text-align: center;
   padding-bottom: auto; }
 
-.ingredient-list {
+.ingredient-list, #Procedure {
   padding-left: 40em;
-  padding-right: 40em;
-  padding-bottom: 20rem; }
-
-#Procedure {
-  padding-left: 20em;
   padding-right: 40em; }
+
+.ingredient-list {
+  padding-bottom: 20rem; }
 
 .procedure-list {
   text-align: left;
@@ -56,17 +54,16 @@ body {
 
 table {
   counter-reset: rowNumber; }
-
-table tr::before {
-  display: table-cell;
-  counter-increment: rowNumber;
-  content: counter(rowNumber) ".";
-  padding-right: 0.3em;
-  text-align: right;
-  padding-left: 4rem;
-  border-top: solid;
-  border-width: 10px;
-  font-size: 20pt; }
+  table tr::before {
+    display: table-cell;
+    counter-increment: rowNumber;
+    content: counter(rowNumber) ".";
+    padding-right: 0.3em;
+    text-align: right;
+    padding-left: 4rem;
+    border-top: solid;
+    border-width: 10px;
+    font-size: 20pt; }
 
 .form {
   background-color: #ccc9c9;
